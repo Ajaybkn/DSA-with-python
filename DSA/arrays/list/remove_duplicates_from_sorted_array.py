@@ -15,13 +15,13 @@ print(ans)
 #  2nd Method--->>>
 
 
-# def remove_duplicates(arr):
-#     ans = []
-#     for i in arr:
-#         if i not in ans:
-#             ans.append(i)
-#     return ans
+def remove_duplicates(arr):
+    ans = []
+    for i in arr:
+        if i not in ans:
+            ans.append(i)
+    return ans
 
 
-# answ = remove_duplicates([1, 1, 1, 2, 2, 3, 4, 4, 5, 6, 7, 7, 6])
-# print(answ)
+answ = remove_duplicates([1, 1, 1, 2, 2, 3, 4, 4, 5, 6, 7, 7, 6])
+print(answ)
