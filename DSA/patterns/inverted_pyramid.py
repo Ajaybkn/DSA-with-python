@@ -1,0 +1,12 @@
+def inverted_pyramid(n):
+   for i in range(n):
+       for s in range(i):
+           print(" ",end="")
+       for j in range(n-i):
+            print("* ",end="")
+       print()
+
+inverted_pyramid(15)
+
+
+
